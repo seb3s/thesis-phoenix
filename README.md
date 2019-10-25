@@ -57,10 +57,6 @@ _If you are having problems, view `README_INSTALL.md` for manual instructions._
 def deps do
   [{:thesis, "~> 0.3.4"}]
 end
-
-def application do
-  [applications: [:thesis]]
-end
 ```
 
 ##### 2. Run `mix thesis.install`
